@@ -5,5 +5,8 @@ class ChattyStudent < Student
     you don't want any spoilers? Okay well let me just tell you who died..."
   end
   def raise_hand
+    for i in 1..10
+      super
+    end
   end
 end
